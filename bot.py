@@ -67,10 +67,7 @@ def check_funda(seen):
         seen.append(link)
 
 def main():
-    seen = load_seen()
-    check_pararius(seen)
-    check_funda(seen)
-    save_seen(seen)
+    send_message("✅ تست موفق: GitHub Actions به تلگرام وصله")
 
 if __name__ == "__main__":
     main()
